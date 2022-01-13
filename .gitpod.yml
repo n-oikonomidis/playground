@@ -3,3 +3,6 @@ tasks:
     #command: echo 'start script'
     command: echo 'Starting playground...' \
               && docker run -it -p 1880:1880 -v node_red_data:/data --name mynodered nodered/node-red
+ports:
+  - port: 3000
+    onOpen: open-preview
