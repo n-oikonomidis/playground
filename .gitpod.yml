@@ -1,10 +1,7 @@
-image: nodered/node-red
-
+#image: nodered/node-red
 tasks:
-  - init: echo 'init script' # runs during prebuild
-    #command: echo 'start script'
-    command: echo 'Starting playground...' \
-              && docker run -it -p 1880:1880 -v node_red_data:/data --name mynodered nodered/node-red
+  - init:
+    command: ocker run -it -p 1880:1880 -v node_red_data:/data --name mynodered nodered/node-red
 ports:
   - port: 1880
     onOpen: open-preview
