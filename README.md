@@ -1,2 +1,2 @@
 # playground
-playing around with different stuff
+Playing around with different stuff
