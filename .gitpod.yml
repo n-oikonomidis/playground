@@ -1,1 +1,1 @@
-image: nodered/node-red:latest
+image: redis
