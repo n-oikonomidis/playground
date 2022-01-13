@@ -1,6 +1,6 @@
 image: niko71/testing:node-red-build
 tasks:
-  - init: docker run -it -p1880:1880 -v node_red_data:/data --name myNRtest niko71/testing:node-red-build
+  - command: docker run -it -p1880:1880 -v node_red_data:/data --name myNRtest niko71/testing:node-red-build
 ports:
   - port: 1880
     onOpen: open-preview
