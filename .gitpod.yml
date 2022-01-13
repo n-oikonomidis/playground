@@ -1,1 +1,1 @@
-image: nodered/node-red
+image: nodered/node-red:latest
