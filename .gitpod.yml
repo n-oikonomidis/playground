@@ -1,1 +1,2 @@
 image: node
+image: nodered/node-red
