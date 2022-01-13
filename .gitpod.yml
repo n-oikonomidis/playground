@@ -1,4 +1,5 @@
-image: niko71/testing:node-red-build
+image: niko71/docker101tutorial
+#image: niko71/testing:node-red-build
 #tasks:
 #  - init: docker run -it -p 1880:1880 -v node_red_data:/data --name mynodered nodered/node-red
 #ports:
