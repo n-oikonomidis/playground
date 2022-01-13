@@ -1,7 +1,7 @@
 #image: nodered/node-red
 tasks
   - init
-    command: ocker run -it -p 1880:1880 -v node_red_data:/data --name mynodered nodered/node-red
+    command: docker run -it -p 1880:1880 -v node_red_data:/data --name mynodered nodered/node-red
 ports:
   - port: 1880
     onOpen: open-preview
