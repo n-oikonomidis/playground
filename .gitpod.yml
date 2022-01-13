@@ -1,1 +1,3 @@
-image: redis
+- init: echo 'init script' # runs during prebuild
+    #command: echo 'start script'
+    command: echo 'Starting playground...'
