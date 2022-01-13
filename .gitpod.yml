@@ -1,2 +1,3 @@
--image: node
-image: nodered/node-red
+-image: 
+  image.file: node
+  image.file: nodered/node-red
