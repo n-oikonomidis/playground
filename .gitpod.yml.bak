@@ -1,0 +1,6 @@
+image: browserless/chrome
+tasks:
+  - command: http://localhost:3000/
+ports:
+  - port: 3000
+    onOpen: open-preview
