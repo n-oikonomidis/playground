@@ -1,2 +1,2 @@
 tasks:
-  - command: docker run -d --name=firefox -p 5800:5800 -v /docker/appdata/firefox:/config:rw --shm-size 2g -e DISPLAY_WIDTH=1920 -e DISPLAY_HEIGHT=1080 jlesage/firefox
+  - command: docker run -d --name=firefox -p 5800:5800 -v /docker/appdata/firefox:/config:rw --shm-size 2g -e DISPLAY_WIDTH=1920 -e DISPLAY_HEIGHT=1080 TZ=Europe/Berlin jlesage/firefox
