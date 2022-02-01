@@ -1,6 +1,6 @@
-image: niko71/testing:node-red-build
+image: browserless/chrome
 tasks:
-  - command: node-red
+  - command: http://localhost:3000/
 ports:
-  - port: 1880
+  - port: 3000
     onOpen: open-preview

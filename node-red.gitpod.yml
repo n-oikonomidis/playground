@@ -1,0 +1,6 @@
+image: niko71/testing:node-red-build
+tasks:
+  - command: node-red
+ports:
+  - port: 1880
+    onOpen: open-preview
